@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api'; // For local development
+const API_URL = 'https://url-backend-lx3r.onrender.com/api'; // For local development
 
 export const register = (userData) => axios.post(`${API_URL}/auth/register`, userData);
 
